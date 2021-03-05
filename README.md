@@ -8,6 +8,7 @@ services:
   portainer-ce:
     image: portainer/portainer-ce
     container_name: "portainer"
+    restart: always
     ports: 
       - "9000:9000"
     volumes: 
